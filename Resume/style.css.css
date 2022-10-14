@@ -1,0 +1,46 @@
+@font-face{
+  font-family: 'FF';
+  src: url('./Roboto/Roboto-BlackItalic.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'space';
+src: url('./Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+}
+
+body{
+  background-color: #fff;
+  color:black;
+  font-family: 'space';
+font-size: 18px;
+
+}
+
+h1,#contact{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#Location{
+  float: right;
+font-weight: bold;
+margin-left: 70%;
+}
+
+#dates{text-align: left}
+ul{text-align: justify;
+padding-right:14.68%;}
+#job{
+  text-decoration: underline;
+  font-style: italic;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+a[href*='certificates']:hover{
+  color:blueviolet;
+}
+
